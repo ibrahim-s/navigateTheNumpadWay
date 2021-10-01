@@ -5,7 +5,6 @@
 # See the file COPYING for more details.
 
 import core, ui
-#import queueHandler
 import globalPluginHandler
 from globalCommands import commands
 import inputCore
@@ -33,7 +32,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def __init__(self, *args, **kwargs):
 		super(GlobalPlugin, self).__init__(*args, **kwargs)
-		self.modes= ['Normal Mode', 'Numpad Mode', 'Numbers Mode']
+		self.modes= [
+		# Translators: The normal mode you can toggle to.
+		_('Normal Mode'),
+		# Translators: The numpad mode you can toggle to.
+		_('Numpad Mode'),
+		# Translators: The numbers mode you can toggle to.
+		_('Numbers Mode')
+		]
 		self.index= 0
 
 	def terminate(self, *args, **kwargs):
@@ -80,13 +86,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_toggleEmulatedModes(self, gesture):
 		self.index= (self.index+1)%len(self.modes)
 		#log.info(f'self.index: {self.index}')
-		message= _("{}").format(self.modes[self.index])
+		message= self.modes[self.index]
 		if self.index== 1:
 			self.activateNumpadMode()
 		elif self.index==2:
 			self.activateNumbersMode()
 		else:
-			#message= _("Normal mode")
 			self.clearAllBindings()
 		ui.message(message)
 

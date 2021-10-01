@@ -1,3 +1,3 @@
-## Changes for 0.3 .
+## Changes for 0.4 .
 
-*	Make repo for addon
+*	Fix translatable strings

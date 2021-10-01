@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'emulateNumpadMode' '0.4'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2021-09-10 04:04+0300\n"
-"PO-Revision-Date: 2021-09-10 04:08+0300\n"
+"PO-Revision-Date: 2021-09-10 04:19+0300\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,17 +21,17 @@ msgstr ""
 #. Translators: The normal mode you can toggle to.
 #: addon\globalPlugins\emulateNumpadMode.py:37
 msgid "Normal Mode"
-msgstr ""
+msgstr "الوضع العادي"
 
 #. Translators: The numpad mode you can toggle to.
 #: addon\globalPlugins\emulateNumpadMode.py:39
 msgid "Numpad Mode"
-msgstr ""
+msgstr "وضع numpad"
 
 #. Translators: The numbers mode you can toggle to.
 #: addon\globalPlugins\emulateNumpadMode.py:41
 msgid "Numbers Mode"
-msgstr ""
+msgstr "وضع الأرقام"
 
 #. Translators: Category of addon in input gestures.
 #. Add-on summary, usually the user visible name of the addon.
@@ -39,12 +39,12 @@ msgstr ""
 #. to be shown on installation and add-on information found in Add-ons Manager.
 #: addon\globalPlugins\emulateNumpadMode.py:99 buildVars.py:23
 msgid "Emulate Numpad Mode"
-msgstr ""
+msgstr "تقليد نمط numpad"
 
 #. Translators: Message displayed in input help more.
 #: addon\globalPlugins\emulateNumpadMode.py:101
 msgid "Toggle between normal, emulated numpad mode and numbers mode state"
-msgstr ""
+msgstr "الإنتقال بين الوضع العادي, نمط numpad و نمط الأرقام."
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -52,4 +52,4 @@ msgstr ""
 msgid ""
 "Emulate numpad key navigation feature\n"
 "on a portion of the main keyboard."
-msgstr ""
+msgstr "تقليد نمط لوحةْ الأرقام \vعلى جزء معين مِن لوحةْ المفاتيح."
