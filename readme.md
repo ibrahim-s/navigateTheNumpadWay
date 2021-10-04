@@ -26,4 +26,8 @@ numpad7 numpad8 numpad9
 numpad4 numpad5 numpad6  
 numpad1 numpad2 numpad3  
 
+### Changes for 0.4 ###
+
+*	Add Turkish translation.
+
 [1]: https://github.com/ibrahim-h/emulateNumpadMode/releases/download/0.4/emulateNumpadMode-0.4.nvda-addon
