@@ -1,7 +1,7 @@
 # Emulate Numpad Mode #
 
 *	Author: Ibrahim Hamadeh
-*	Download [version 0.4][1]
+*	Download [version 0.5][1]
 *	NVDA compatibility: 2019.3 and later
 
 ## Introduction
@@ -26,8 +26,16 @@ numpad7 numpad8 numpad9
 numpad4 numpad5 numpad6  
 numpad1 numpad2 numpad3  
 
+### Changes for 0.5 ###
+
+*	Update last tested version, to comply with NVDA 2022.1 API.
+
 ### Changes for 0.4 ###
 
 *	Add Turkish translation.
 
-[1]: https://github.com/ibrahim-h/emulateNumpadMode/releases/download/0.4/emulateNumpadMode-0.4.nvda-addon
+### Contributions ###
+
+*	umut korkmaz, thanks for supporting the Turkish translation of the addon.
+
+[1]: https://github.com/ibrahim-h/emulateNumpadMode/releases/download/0.5/emulateNumpadMode-0.5.nvda-addon

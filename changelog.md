@@ -1,3 +1,3 @@
-## Changes for 0.4 .
+## Changes for 0.5 .
 
-*	Fix translatable strings
+*	Change Last tested version, for compatibility with NVDA 2022.1.
