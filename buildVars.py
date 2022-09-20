@@ -26,7 +26,7 @@ addon_info = {
 	"addon_description": _("""Emulate numpad key navigation feature
 on a portion of the main keyboard."""),
 	# version
-	"addon_version": "0.5",
+	"addon_version": "0.5.2",
 	# Author(s)
 	"addon_author": "ibrahim hamadeh <ibra.hamadeh@hotmail.com>",
 	# URL for the add-on documentation support

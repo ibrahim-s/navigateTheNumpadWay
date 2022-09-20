@@ -30,15 +30,23 @@ class GestureHelper():
 
 	def suspendGestures(self):
 		''' Suspending gestures that are in the user gesture map, and are used in the form. '''
+		userGestureMap= inputCore.manager.userGestureMap._map
 		for k in self.numpadDict:
 			normalizedGesture= inputCore.normalizeGestureIdentifier(f'kb:{k}')
-			userGestureMap= inputCore.manager.userGestureMap._map
 			if normalizedGesture in userGestureMap:
 				scripts= userGestureMap[normalizedGesture]
 				#log.info(f'scripts: {scripts}')
 				if scripts:
 					GestureHelper.temptDict[normalizedGesture]= scripts[:]
-					inputCore.manager.userGestureMap.remove(normalizedGesture, *scripts[-1])
+					for script in scripts[:]:
+						#log.info(f'script: {script}')
+						try:
+							inputCore.manager.userGestureMap.remove(normalizedGesture, *script)
+							#log.info(f'removing script: {script}')
+						except Exception as e:
+							log.info('Error in removing gesture', exc_info= True)
+							continue
+		#log.info(f'temptDict: {self.temptDict}')
 
 	def activateSuspendedGestures(self):
 		''' Activating or returning suspended gestures to funcional or previous state.'''
@@ -48,10 +56,10 @@ class GestureHelper():
 		if not _dict:
 			return
 		for gesture in _dict:
-			scripts= _dict[gesture]
+			scripts= _dict[gesture][:]
 			if scripts:
-				inputCore.manager.userGestureMap.add(gesture, *scripts[-1])
-				GestureHelper.temptDict= {}
+				[inputCore.manager.userGestureMap.add(gesture, *script) for script in scripts]
+		GestureHelper.temptDict= {}
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
