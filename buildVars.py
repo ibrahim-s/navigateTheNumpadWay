@@ -27,7 +27,7 @@ addon_info = {
 on a portion of the main keyboard.
 Default shortcut to toggle between normal and numpad mode in the addon is NVDA+F4, and you can modify it from input gestures dialog in NVDA."""),
 	# version
-	"addon_version": "0.5.2",
+	"addon_version": "0.6-dev",
 	# Author(s)
 	"addon_author": "ibrahim hamadeh <ibra.hamadeh@hotmail.com>",
 	# URL for the add-on documentation support

@@ -1,7 +1,7 @@
 # Emulate Numpad Mode #
 
 *	Author: Ibrahim Hamadeh
-*	Download [version 0.5][1]
+*	Download [Development version 0.6][1]
 *	NVDA compatibility: 2019.3 and later
 
 ## Introduction
@@ -16,20 +16,20 @@ So I think this addon will mostly be of interest for users that do not have a nu
 
 After installing the addon, you will have three modes
 
-Normal, Numpad and Mumbers mode, numbers mode is skipped by default, so mainly we have two modes normal and numpad .
+Normal, Numpad and numbers mode, numbers mode is skipped by default, so mainly we have two modes normal and numpad .
 
-you can toggle between these modes by NVDA+f4 shortcut. And as always you can modify this shortcut going to NVDA menue/preferences/input gestures/Emulate Numpad Mode.
+you can toggle between these modes by NVDA+f4 shortcut. And as always you can modify this shortcut going to NVDA menu/preferences/input gestures/Emulate Numpad Mode.
 
 The available forms that you can emulate them to numpad mode are
-*	form1:
+*	form1:  
 e r t  
 d f g  
 c v b
-*	form2:
+*	form2:  
 y u i  
 h j k  
 n m ,
-*	form3:
+*	form3:  
 7 8 9  
 u i o  
 j k l
@@ -73,4 +73,4 @@ The addon was updated introducing lot of new ffeatures
 
 *	umut korkmaz, thanks for supporting the Turkish translation of the addon.
 
-[1]: https://github.com/ibrahim-h/emulateNumpadMode/releases/download/0.5/emulateNumpadMode-0.5.nvda-addon
+[1]: https://github.com/ibrahim-s/emulateNumpadMode/releases/download/0.6-dev/emulateNumpadMode-0.6-dev.nvda-addon
