@@ -21,14 +21,15 @@ Normal, Numpad and numbers mode, numbers mode is skipped by default, so mainly w
 you can toggle between these modes by NVDA+f4 shortcut. And as always you can modify this shortcut going to NVDA menu/preferences/input gestures/Emulate Numpad Mode.
 
 The available forms that you can emulate them to numpad mode are
+
 *	form1:  
 e r t  
 d f g  
-c v b
+c v b  
 *	form2:  
 y u i  
 h j k  
-n m ,
+n m ,  
 *	form3:  
 7 8 9  
 u i o  
@@ -43,7 +44,9 @@ numpad1 numpad2 numpad3
 Emulating their review or object navigation, used alone or with conjuction with the shift or NVDA keys.
 
 ## Addon Settings ##
-To access addon settings, go to: NVDA menu/preferences, hit enter then e to go to Emulate Numpad Mode panel.
+
+To access addon settings, go to: NVDA menu/preferences,  
+hit enter then e to go to Emulate Numpad Mode panel.
 
 *	Choose form to emulate to numpad mode combo box: From here you can choose the form you like to emulate to numpad mode, and Form1 is chosen by default.
 *	Next you will stand on a multi edit text control: it will help you to view the form you have selected, and you can use up and down arrows to navigate.

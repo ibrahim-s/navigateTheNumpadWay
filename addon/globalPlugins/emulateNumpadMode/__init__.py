@@ -131,6 +131,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		else:
 			script(gesture)
 
+	@script(
+		# Translators: Message displayed in input help mode.
+		description= _("Emulate a number key press.")
+	)
 	def script_numbersMode(self, gesture):
 		#log.info('under script_numbersMode...')
 		key= gesture.mainKeyName
