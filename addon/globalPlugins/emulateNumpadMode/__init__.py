@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # NVDA Add-on: Emulate Numpad Mode
 # Copyright (C) 2021 ibrahim hamadeh
 # This add-on is free software, licensed under the terms of the GNU General Public License (version 2).
@@ -166,7 +165,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	script_toggleEmulatedModes.__doc__= _("Toggle between normal, emulated numpad mode and numbers mode states.")
 
 	__gestures={
-		'kb:nvda+f4': 'toggleEmulatedModes'
+		'kb:shift+nvda+f4': 'toggleEmulatedModes'
 	}
 
 #default configuration 

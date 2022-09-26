@@ -25,13 +25,13 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""Emulate numpad key navigation feature
 on a portion of the main keyboard.
-Default shortcut to toggle between normal and numpad mode in the addon is NVDA+F4, and you can modify it from input gestures dialog in NVDA."""),
+Default shortcut to toggle between normal and numpad mode in the addon is Shift+NVDA+F4, and you can modify it from input gestures dialog in NVDA."""),
 	# version
-	"addon_version": "0.6-dev",
+	"addon_version": "0.7",
 	# Author(s)
 	"addon_author": "ibrahim hamadeh <ibra.hamadeh@hotmail.com>",
 	# URL for the add-on documentation support
-	"addon_url": "https://github.com/ibrahim-h/emulateNumpadMode",
+	"addon_url": "https://github.com/ibrahim-s/emulateNumpadMode",
 	# Documentation file name
 	"addon_docFileName": "readme.html",
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)

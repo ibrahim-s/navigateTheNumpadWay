@@ -8,41 +8,41 @@ msgstr ""
 "Project-Id-Version: 'emulateNumpadMode' '0.6-dev'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2022-09-23 14:13+0300\n"
-"PO-Revision-Date: 2022-09-23 23:32+0300\n"
-"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
-"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
-"Language: tr_TR\n"
+"PO-Revision-Date: 2022-09-23 22:45+0100\n"
+"Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
+"Language-Team: Equipa portuguesa do NVDA: Ângelo Abrantes e Rui Fontes\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 3.1.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: The normal mode you can toggle to.
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:70
 msgid "Normal Mode"
-msgstr "Normal Mod"
+msgstr "Modo normal"
 
 #. Translators: The numpad mode you can toggle to.
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:72
 msgid "Numpad Mode"
-msgstr "Gezinme Modu"
+msgstr "Modo bloco numérico"
 
 #. Translators: The numbers mode you can toggle to.
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:74
 msgid "Numbers Mode"
-msgstr "Sayısal Mod"
+msgstr "Modo Números"
 
 #. Translators: Message displayed in input help mode.
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:120
 msgid "Emulate numpad key press."
-msgstr "Gezinme tuş takımına basmayı taklit edin."
+msgstr "Emular a tecla numpad."
 
 #. Translators: Message displayed in input help mode.
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:136
 msgid "Emulate a number key press."
-msgstr "Bir sayı tuşuna basmayı taklit edin."
+msgstr "Emular a tecla numpad."
 
 #. Translators: Category of addon in input gestures.
 #. Translators: title of the panel
@@ -52,54 +52,54 @@ msgstr "Bir sayı tuşuna basmayı taklit edin."
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:164
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:183 buildVars.py:23
 msgid "Emulate Numpad Mode"
-msgstr "Sayısal Tuş Takımı Modunu Taklit Et"
+msgstr "Modo Emular bloco numérico"
 
 #. Translators: Message displayed in input help mode.
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:166
 msgid "Toggle between normal, emulated numpad mode and numbers mode states."
 msgstr ""
-"Normal, Gezinme ve Sayısal tuş takımını taklit etme modları arasında "
-"geçiş yapar."
+"Alternar entre o modo normal, bloco numérico emulado e os estados de modo "
+"numérico."
 
 #. Translators: Option in combo box for form1
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:191
 msgid "Form1"
-msgstr "Form 1"
+msgstr "Formulário 1"
 
 #. Translators: Option in combo box for form2
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:193
 msgid "Form2"
-msgstr "Form 2"
+msgstr "Formulário 2"
 
 #. Translators: Option in combo box for form3
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:195
 msgid "Form3"
-msgstr "Form 3"
+msgstr "Formulário3"
 
 #. Translators: Label of combo box
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:199
 msgid "Choose form to emulate to numpad mode:"
-msgstr "Sayısal Tuş takımı modunda taklit edilecek formu seçin:"
+msgstr "Escolha a forma para emular para o modo bloco numérico:"
 
 #. Translators: Label of text control that exposes the selected form.
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:206
 msgid "Selected Form"
-msgstr "Seçili Form"
+msgstr "Formulário selecionado"
 
 #. Translators: Label of checkbox
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:214
 msgid "Skipt numbers mode"
-msgstr "Sayısal modu atla"
+msgstr "Modo saltar números"
 
 #. Translators: Label of checkbox
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:221
 msgid "Dismiss numpadMode by escape key"
-msgstr "Escape tuşuyla Sayısal tuş takımı modunu kapat"
+msgstr "Rejeitar o bloco numérico por tecla de escape"
 
 #. Translators: Message helps the user to view the form.
 #: addon\globalPlugins\emulateNumpadMode\__init__.py:233
 msgid "You can use up and down arrows to view the form"
-msgstr "Formu görüntülemek için yukarı ve aşağı okları kullanabilirsiniz"
+msgstr "Você pode usar setas para cima e para baixo para ver o formulário"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -110,8 +110,8 @@ msgid ""
 "Default shortcut to toggle between normal and numpad mode in the addon is "
 "NVDA+F4, and you can modify it from input gestures dialog in NVDA."
 msgstr ""
-"Sayısal tuş takımı özelliğini taklit edin\n"
-"ana klavyenin bir bölümünde.\n"
-"Eklentide normal ve sayısal tuş takımı arasında geçiş yapmak için "
-"varsayılan kısayol NVDA+F4'tür. Bunu NVDA'daki girdi hareketleri iletişim "
-"kutusundan değiştirebilirsiniz."
+"Emular o recurso de navegação com teclado numérico\n"
+"numa parte do teclado principal.\n"
+"O atalho padrão para alternar entre o modo normal e o numérico no extra é "
+"NVDA+F4, e pode modificá-lo a partir do diálogo de entrada de comandos, "
+"no menu do NVDA."

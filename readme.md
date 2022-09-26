@@ -1,7 +1,7 @@
 # Emulate Numpad Mode #
 
 *	Author: Ibrahim Hamadeh
-*	Download [Development version 0.6][1]
+*	Download [version 0.7][1]
 *	NVDA compatibility: 2019.3 and later
 
 ## Introduction
@@ -18,7 +18,7 @@ After installing the addon, you will have three modes
 
 Normal, Numpad and numbers mode, numbers mode is skipped by default, so mainly we have two modes normal and numpad .
 
-you can toggle between these modes by NVDA+f4 shortcut. And as always you can modify this shortcut going to NVDA menu/preferences/input gestures/Emulate Numpad Mode.
+you can toggle between these modes by Shift+NVDA+f4 shortcut. And as always you can modify this shortcut going to NVDA menu/preferences/input gestures/Emulate Numpad Mode.
 
 The available forms that you can emulate them to numpad mode are
 
@@ -51,10 +51,15 @@ hit enter then e to go to Emulate Numpad Mode panel.
 *	Choose form to emulate to numpad mode combo box: From here you can choose the form you like to emulate to numpad mode, and Form1 is chosen by default.
 *	Next you will stand on a multi edit text control: it will help you to view the form you have selected, and you can use up and down arrows to navigate.
 *	Skipt numbers mode check box: it is unchecked or skipped by default. Numbers mode was requested by the user who requested the addon, and I wanted to keep it, even if it may seem secondary and not used by most users.
-*	Dismiss numpadMode by escape key check box: it is checked by default, so that you can return to normal mode either by the toggle gesture of the addon(NVDA+F4 by default), or the escape key.
+*	Dismiss numpadMode by escape key check box: it is checked by default, so that you can return to normal mode either by the toggle gesture of the addon(Shift+NVDA+F4 by default), or the escape key.
 
 Final note:  
 Sometimes some addons may grab one or more of the gestures of the form. Hope you can manage that by either using another form, or removing the gesture from the theif addon, for until now I do not have other solutions.
+
+### Changes for 0.7 ###
+
+*	Add Portuguese translation for the addon.
+*	Change the default gesture or shortcut for the addon, it is now Shift+NVDA+F4.
 
 ### Changes for 0.6 ###
 The addon was updated introducing lot of new ffeatures
@@ -75,5 +80,6 @@ The addon was updated introducing lot of new ffeatures
 ### Contributions ###
 
 *	umut korkmaz, thanks for supporting the Turkish translation of the addon.
+*	Ângelo Abrantes, thanks for supporting the Portuguese translation of the addon.
 
-[1]: https://github.com/ibrahim-s/emulateNumpadMode/releases/download/0.6-dev/emulateNumpadMode-0.6-dev.nvda-addon
+[1]: https://github.com/ibrahim-s/emulateNumpadMode/releases/download/0.7/emulateNumpadMode-0.7.nvda-addon
