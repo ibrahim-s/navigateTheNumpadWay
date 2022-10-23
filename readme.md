@@ -1,7 +1,7 @@
 # Emulate Numpad Mode #
 
 *	Author: Ibrahim Hamadeh
-*	Download [version 0.7][1]
+*	Download [version 0.8][1]
 *	NVDA compatibility: 2019.3 and later
 
 ## Introduction
@@ -23,14 +23,20 @@ you can toggle between these modes by Shift+NVDA+f4 shortcut. And as always you 
 The available forms that you can emulate them to numpad mode are
 
 *	form1:  
+q w e  
+a s d  
+z x c  
+
+*	form2:  
 e r t  
 d f g  
 c v b  
-*	form2:  
+*	form3:  
 y u i  
 h j k  
 n m ,  
-*	form3:  
+
+*	form4:  
 7 8 9  
 u i o  
 j k l
@@ -50,11 +56,16 @@ hit enter then e to go to Emulate Numpad Mode panel.
 
 *	Choose form to emulate to numpad mode combo box: From here you can choose the form you like to emulate to numpad mode, and Form1 is chosen by default.
 *	Next you will stand on a multi edit text control: it will help you to view the form you have selected, and you can use up and down arrows to navigate.
-*	Skipt numbers mode check box: it is unchecked or skipped by default. Numbers mode was requested by the user who requested the addon, and I wanted to keep it, even if it may seem secondary and not used by most users.
+*	Skip Options combo box, this allows you to choose either Skip numbers mode, Skip Numpad mode, or keep both modes active.  
 *	Dismiss numpadMode by escape key check box: it is checked by default, so that you can return to normal mode either by the toggle gesture of the addon(Shift+NVDA+F4 by default), or the escape key.
 
 Final note:  
 Sometimes some addons may grab one or more of the gestures of the form. Hope you can manage that by either using another form, or removing the gesture from the theif addon, for until now I do not have other solutions.
+
+### Changes for 0.8 ###
+
+*	Make a combo box instead of check box, to skipp either Numbers mode, Numpad mode, or keep both.  
+*	Add a new form(q w e, a s d, z x c), and put it as form1.
 
 ### Changes for 0.7 ###
 
@@ -82,4 +93,4 @@ The addon was updated introducing lot of new ffeatures
 *	umut korkmaz, thanks for supporting the Turkish translation of the addon.
 *	Ângelo Abrantes, thanks for supporting the Portuguese translation of the addon.
 
-[1]: https://github.com/ibrahim-s/emulateNumpadMode/releases/download/0.7/emulateNumpadMode-0.7.nvda-addon
+[1]: https://github.com/ibrahim-s/emulateNumpadMode/releases/download/0.8/emulateNumpadMode-0.8.nvda-addon

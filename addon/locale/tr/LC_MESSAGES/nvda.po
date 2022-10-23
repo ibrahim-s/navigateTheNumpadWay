@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 'emulateNumpadMode' '0.6-dev'\n"
+"Project-Id-Version: 'emulateNumpadMode' '0.8'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2022-09-23 14:13+0300\n"
-"PO-Revision-Date: 2022-09-23 23:32+0300\n"
+"POT-Creation-Date: 2022-10-20 22:59+0300\n"
+"PO-Revision-Date: 2022-10-21 21:41+0300\n"
 "Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language: tr_TR\n"
@@ -35,12 +35,12 @@ msgid "Numbers Mode"
 msgstr "Sayısal Mod"
 
 #. Translators: Message displayed in input help mode.
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:120
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:122
 msgid "Emulate numpad key press."
 msgstr "Gezinme tuş takımına basmayı taklit edin."
 
 #. Translators: Message displayed in input help mode.
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:136
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:138
 msgid "Emulate a number key press."
 msgstr "Bir sayı tuşuna basmayı taklit edin."
 
@@ -49,69 +49,97 @@ msgstr "Bir sayı tuşuna basmayı taklit edin."
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on
 #. to be shown on installation and add-on information found in Add-ons Manager.
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:164
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:183 buildVars.py:23
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:171
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:190 buildVars.py:23
 msgid "Emulate Numpad Mode"
 msgstr "Sayısal Tuş Takımı Modunu Taklit Et"
 
 #. Translators: Message displayed in input help mode.
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:166
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:173
 msgid "Toggle between normal, emulated numpad mode and numbers mode states."
 msgstr ""
-"Normal, Gezinme ve Sayısal tuş takımını taklit etme modları arasında "
-"geçiş yapar."
+"Normal, Gezinme ve Sayısal tuş takımını taklit etme modları arasında geçiş "
+"yapar."
 
 #. Translators: Option in combo box for form1
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:191
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:198
 msgid "Form1"
 msgstr "Form 1"
 
 #. Translators: Option in combo box for form2
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:193
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:200
 msgid "Form2"
 msgstr "Form 2"
 
 #. Translators: Option in combo box for form3
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:195
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:202
 msgid "Form3"
 msgstr "Form 3"
 
+#. Translators: Option in combo box for form4
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:204
+#| msgid "Form1"
+msgid "Form4"
+msgstr "Form 4"
+
 #. Translators: Label of combo box
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:199
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:208
 msgid "Choose form to emulate to numpad mode:"
 msgstr "Sayısal Tuş takımı modunda taklit edilecek formu seçin:"
 
 #. Translators: Label of text control that exposes the selected form.
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:206
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:215
 msgid "Selected Form"
 msgstr "Seçili Form"
 
-#. Translators: Label of checkbox
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:214
-msgid "Skipt numbers mode"
+#. Translators: Option in combo box to skip numbers mode
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:223
+#| msgid "Skipt numbers mode"
+msgid "Skip numbers mode"
 msgstr "Sayısal modu atla"
 
+#. Translators: Option in combo box to skip numpad mode
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:225
+#| msgid "Skipt numbers mode"
+msgid "Skip numpad mode"
+msgstr "Gezinme modunu atla"
+
+#. Translators: Option in combo box to keep both modes
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:227
+msgid "Don't skip(Keep both modes)"
+msgstr "Hiçbirini atlama(Her iki modu da koru)"
+
+#. Translators: Label of combo box
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:231
+msgid "Skip Options:"
+msgstr "Atlama seçenekleri:"
+
 #. Translators: Label of checkbox
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:221
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:237
 msgid "Dismiss numpadMode by escape key"
 msgstr "Escape tuşuyla Sayısal tuş takımı modunu kapat"
 
 #. Translators: Message helps the user to view the form.
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:233
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:249
 msgid "You can use up and down arrows to view the form"
 msgstr "Formu görüntülemek için yukarı ve aşağı okları kullanabilirsiniz"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #: buildVars.py:26
+#| msgid ""
+#| "Emulate numpad key navigation feature\n"
+#| "on a portion of the main keyboard.\n"
+#| "Default shortcut to toggle between normal and numpad mode in the addon is "
+#| "NVDA+F4, and you can modify it from input gestures dialog in NVDA."
 msgid ""
 "Emulate numpad key navigation feature\n"
 "on a portion of the main keyboard.\n"
 "Default shortcut to toggle between normal and numpad mode in the addon is "
-"NVDA+F4, and you can modify it from input gestures dialog in NVDA."
+"Shift+NVDA+F4, and you can modify it from input gestures dialog in NVDA."
 msgstr ""
-"Sayısal tuş takımı özelliğini taklit edin\n"
-"ana klavyenin bir bölümünde.\n"
-"Eklentide normal ve sayısal tuş takımı arasında geçiş yapmak için "
-"varsayılan kısayol NVDA+F4'tür. Bunu NVDA'daki girdi hareketleri iletişim "
-"kutusundan değiştirebilirsiniz."
+"Sayısal tuş takımı,  ana klavyenin bir bölümünde\n"
+"tuşlarla gezinme özelliğini taklit edin.\n"
+"Eklentide gezinme ve sayısal tuş takımı arasında geçiş yapmak için "
+"varsayılan kısayol Shift+NVDA+F4'tür. Bunu NVDA'daki giriş hareketleri "
+"iletişim kutusundan değiştirebilirsiniz."

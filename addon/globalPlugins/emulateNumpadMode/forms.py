@@ -35,8 +35,21 @@ generalDict= {
 class Forms:
 	''' Helper class that deals with various or available forms and their alternative numpad scripts or gestures.'''
 
-	# form1 dictionary, that maps numpad keys to their alternative set of keys on main keyboard that should be emulated.
+# form1 dictionary, that maps numpad keys to their alternative set of keys on main keyboard that should be emulated.
 	form1= {
+	'numpad7': 'q',
+	'numpad8': 'w',
+	'numpad9': 'e',
+	'numpad4': 'a',
+	'numpad5': 's',
+	'numpad6': 'd',
+	'numpad1': 'z',
+	'numpad2': 'x',
+	'numpad3': 'c'
+	}
+
+	# form2 dictionary, that maps numpad keys to their alternative set of keys on main keyboard that should be emulated.
+	form2= {
 	'numpad7': 'e',
 	'numpad8': 'r',
 	'numpad9': 't',
@@ -48,8 +61,8 @@ class Forms:
 	'numpad3': 'b'
 	}
 
-	# form2 dictionary, that maps numpad keys to their alternative set of keys on main keyboard that should be emulated.
-	form2= {
+	# form3 dictionary, that maps numpad keys to their alternative set of keys on main keyboard that should be emulated.
+	form3= {
 	'numpad7': 'y',
 	'numpad8': 'u',
 	'numpad9': 'i',
@@ -61,8 +74,8 @@ class Forms:
 	'numpad3': ','
 	}
 
-	# form3 dictionary, that maps numpad keys to their alternative set of keys on main keyboard that should be emulated.
-	form3= {
+	# form4 dictionary, that maps numpad keys to their alternative set of keys on main keyboard that should be emulated.
+	form4= {
 	'numpad7': '7',
 	'numpad8': '8',
 	'numpad9': '9',
@@ -74,7 +87,7 @@ class Forms:
 	'numpad3': 'l'
 	}
 
-	forms= (form1, form2, form3)
+	forms= (form1, form2, form3, form4)
 	def __init__(self) -> None:
 		self._index= config.conf["emulateNumpadMode"]["formChosen"]
 		self._form= self.forms[self._index]
@@ -112,8 +125,5 @@ class Forms:
 	@property
 	def allKeyNames(self) -> List[str]:
 		''' Getting a list of key names in all available forms.'''
-		item1= self.getKeyNames(form= self.forms[0])
-		item2= self.getKeyNames(form= self.forms[1])
-		item3= self.getKeyNames(form= self.forms[2])
-		_list= [item1, item2, item3]
+		_list= [self.getKeyNames(form) for form in self.forms]
 		return _list

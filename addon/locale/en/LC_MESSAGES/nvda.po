@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 'emulateNumpadMode' '0.6-dev'\n"
+"Project-Id-Version: 'emulateNumpadMode' '0.8'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2022-09-23 14:13+0300\n"
-"PO-Revision-Date: 2022-09-23 14:17+0300\n"
+"POT-Creation-Date: 2022-10-20 22:59+0300\n"
+"PO-Revision-Date: 2022-10-20 23:05+0300\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,12 +34,12 @@ msgid "Numbers Mode"
 msgstr ""
 
 #. Translators: Message displayed in input help mode.
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:120
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:122
 msgid "Emulate numpad key press."
 msgstr ""
 
 #. Translators: Message displayed in input help mode.
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:136
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:138
 msgid "Emulate a number key press."
 msgstr ""
 
@@ -48,53 +48,73 @@ msgstr ""
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on
 #. to be shown on installation and add-on information found in Add-ons Manager.
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:164
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:183 buildVars.py:23
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:171
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:190 buildVars.py:23
 msgid "Emulate Numpad Mode"
 msgstr ""
 
 #. Translators: Message displayed in input help mode.
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:166
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:173
 msgid "Toggle between normal, emulated numpad mode and numbers mode states."
 msgstr ""
 
 #. Translators: Option in combo box for form1
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:191
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:198
 msgid "Form1"
 msgstr ""
 
 #. Translators: Option in combo box for form2
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:193
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:200
 msgid "Form2"
 msgstr ""
 
 #. Translators: Option in combo box for form3
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:195
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:202
 msgid "Form3"
 msgstr ""
 
+#. Translators: Option in combo box for form4
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:204
+msgid "Form4"
+msgstr ""
+
 #. Translators: Label of combo box
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:199
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:208
 msgid "Choose form to emulate to numpad mode:"
 msgstr ""
 
 #. Translators: Label of text control that exposes the selected form.
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:206
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:215
 msgid "Selected Form"
 msgstr ""
 
-#. Translators: Label of checkbox
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:214
-msgid "Skipt numbers mode"
+#. Translators: Option in combo box to skip numbers mode
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:223
+msgid "Skip numbers mode"
+msgstr ""
+
+#. Translators: Option in combo box to skip numpad mode
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:225
+msgid "Skip numpad mode"
+msgstr ""
+
+#. Translators: Option in combo box to keep both modes
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:227
+msgid "Don't skip(Keep both modes)"
+msgstr ""
+
+#. Translators: Label of combo box
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:231
+msgid "Skip Options:"
 msgstr ""
 
 #. Translators: Label of checkbox
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:221
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:237
 msgid "Dismiss numpadMode by escape key"
 msgstr ""
 
 #. Translators: Message helps the user to view the form.
-#: addon\globalPlugins\emulateNumpadMode\__init__.py:233
+#: addon\globalPlugins\emulateNumpadMode\__init__.py:249
 msgid "You can use up and down arrows to view the form"
 msgstr ""
 
@@ -105,5 +125,5 @@ msgid ""
 "Emulate numpad key navigation feature\n"
 "on a portion of the main keyboard.\n"
 "Default shortcut to toggle between normal and numpad mode in the addon is "
-"NVDA+F4, and you can modify it from input gestures dialog in NVDA."
+"Shift+NVDA+F4, and you can modify it from input gestures dialog in NVDA."
 msgstr ""

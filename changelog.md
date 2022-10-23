@@ -1,4 +1,4 @@
-## Changes for 0.7 .
+## Changes for 0.8 .
 
-*	Add Portuguese translation for the addon.
-*	Change the default gesture or shortcut for the addon, it is now Shift+NVDA+F4.
+*	Make a combo box instead of check box, to skipp either Numbers mode, Numpad mode, or keep both.  
+*	Add a new form(q w e, a s d, z x c), and put it as form1.

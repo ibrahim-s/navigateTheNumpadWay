@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # NVDA Add-on: Emulate Numpad Mode
 # Copyright (C) 2021 ibrahim hamadeh
 # This add-on is free software, licensed under the terms of the GNU General Public License (version 2).
@@ -85,8 +86,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		#log.info('activating numpad mode ...')
 		form= Forms()
 		self.numpadDict= form._numpadDict
+		# Giving the value of numpadDict to GestureHelper class.
 		GestureHelper.numpadDict= form._numpadDict
-		self.numbersDict= form._numbersDict
 		# Suspending gestures if present in user gesture map.
 		GestureHelper().suspendGestures()
 
@@ -99,6 +100,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def activateNumbersMode(self):
 		''' Activating numbers mode for selected form.'''
+		form= Forms()
+		self.numbersDict= form._numbersDict
 		self.clearGestureBindings()
 		self.bindGestures(self.__gestures)
 		# If use escape key to dismiss numpad mode, bind escape key to toggleEmulatedModes script.
@@ -145,10 +148,15 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def script_toggleEmulatedModes(self, gesture):
 		self.index= (self.index+1)%len(self.modes)
+		skipOption = config.conf["emulateNumpadMode"]["skipOptions"]
 		if gesture.mainKeyName== 'escape' and config.conf["emulateNumpadMode"]["dismissNumpadModeByEscape"]:
 			self.index= 0
-		elif config.conf["emulateNumpadMode"]["skiptNumbersMode"] and self.index== 2:
+		# Skipping numbers mode
+		elif skipOption== 0 and self.index== 2:
 			self.index= 0
+		# Skipping numpad mode
+		elif skipOption== 1 and self.index== 1:
+			self.index=2
 		#log.info(f'self.index: {self.index}')
 		message= self.modes[self.index]
 		if self.index== 1:
@@ -171,7 +179,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 #default configuration 
 configspec={
 	"formChosen": "integer(default=0)",
-	"skiptNumbersMode": "boolean(default=True)",
+	"skipOptions": "integer(default=0)",
 	"dismissNumpadModeByEscape": "boolean(default=True)",
 }
 config.conf.spec["emulateNumpadMode"]= configspec
@@ -191,7 +199,9 @@ class EmulateNumpadModePanel(gui.SettingsPanel):
 			# Translators: Option in combo box for form2
 			_("Form2"),
 			# Translators: Option in combo box for form3
-			_("Form3")
+			_("Form3"),
+			# Translators: Option in combo box for form4
+			_("Form4")
 		]
 		self.chooseFormCumbo= sHelper.addLabeledControl(
 			# Translators: Label of combo box
@@ -207,12 +217,19 @@ class EmulateNumpadModePanel(gui.SettingsPanel):
 		self.selectedForm.SetValue(Forms().getKeyNames())
 		self.selectedForm.Bind(wx.EVT_SET_FOCUS, self.onFormFocus)
 
-		# checkbox to skipt numbers mode.
-		self.skipNumbersModeCheckbox = sHelper.addItem(wx.CheckBox(self,
-			# Translators: Label of checkbox
-			label= _("Skipt numbers mode")
-		))
-		self.skipNumbersModeCheckbox.SetValue(config.conf["emulateNumpadMode"]["skiptNumbersMode"])
+		# A combo box for skipping options.
+		options= [
+			# Translators: Option in combo box to skip numbers mode
+			_("Skip numbers mode"),
+			# Translators: Option in combo box to skip numpad mode
+			_("Skip numpad mode"),
+			# Translators: Option in combo box to keep both modes
+			_("Don't skip(Keep both modes)")
+		]
+		self.skipOptionsCumbo= sHelper.addLabeledControl(
+			# Translators: Label of combo box
+			_("Skip Options:"), wx.Choice, choices= options)
+		self.skipOptionsCumbo.SetSelection(config.conf["emulateNumpadMode"]["skipOptions"])
 
 		# checkbox to make escape key dismiss numpad mode.
 		self.dismissNumpadModeByEscapeCheckbox = sHelper.addItem(wx.CheckBox(self,
@@ -233,5 +250,5 @@ class EmulateNumpadModePanel(gui.SettingsPanel):
 
 	def onSave(self):
 		config.conf["emulateNumpadMode"]["formChosen"]= self.chooseFormCumbo.GetSelection()
-		config.conf["emulateNumpadMode"]["skiptNumbersMode"]= self.skipNumbersModeCheckbox.GetValue()
+		config.conf["emulateNumpadMode"]["skipOptions"]= self.skipOptionsCumbo.GetSelection()
 		config.conf["emulateNumpadMode"]["dismissNumpadModeByEscape"]= self.dismissNumpadModeByEscapeCheckbox.GetValue()
