@@ -106,9 +106,9 @@ class Forms:
 		# mapping keys to numbers dictionary
 		d= {key: value for key, value in zip(selectedForm.values(), '789456123')}
 		# map a key for each form to 0, and update the dictionary.
-		if self._index== 2: # third form selected
+		if self._index== 3: # fourth form selected
 			d.update(m= '0')
-		# if form1 or form2 is selected
+		# if form1 or form2or form3 is selected
 		else:
 			d.update(space= '0')
 		return d
