@@ -1,7 +1,7 @@
 # Emulate Numpad Mode #
 
 *	Author: Ibrahim Hamadeh
-*	Download [version 0.8][1]
+*	Download [version 0.9][1]
 *	NVDA compatibility: 2019.3 and later
 
 ## Introduction
@@ -62,6 +62,11 @@ hit enter then e to go to Emulate Numpad Mode panel.
 Final note:  
 Sometimes some addons may grab one or more of the gestures of the form. Hope you can manage that by either using another form, or removing the gesture from the theif addon, for until now I do not have other solutions.
 
+### Changes for 0.9 ###
+
+*	Fix a bug in numbers mode, related to position of number 0, in third and fourth forms.
+*	Update last tested version, thus making the addon compatible with NVDA 2023.1.
+
 ### Changes for 0.8 ###
 
 *	Make a combo box instead of check box, to skipp either Numbers mode, Numpad mode, or keep both.  
@@ -93,4 +98,4 @@ The addon was updated introducing lot of new ffeatures
 *	umut korkmaz, thanks for supporting the Turkish translation of the addon.
 *	Ângelo Abrantes, thanks for supporting the Portuguese translation of the addon.
 
-[1]: https://github.com/ibrahim-s/emulateNumpadMode/releases/download/0.8/emulateNumpadMode-0.8.nvda-addon
+[1]: https://github.com/ibrahim-s/emulateNumpadMode/releases/download/0.9/emulateNumpadMode-0.9.nvda-addon

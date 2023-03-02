@@ -1,4 +1,4 @@
-## Changes for 0.8 .
+## Changes for 0.9 .
 
-*	Make a combo box instead of check box, to skipp either Numbers mode, Numpad mode, or keep both.  
-*	Add a new form(q w e, a s d, z x c), and put it as form1.
+*	Fix a bug in numbers mode, related to position of number 0, in third and fourth forms.
+*	Update last tested version, thus making the addon compatible with NVDA 2023.1.
