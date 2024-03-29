@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Emulate Numpad Mode/forms.py
+# navigateTheNumpadWay/forms.py
 # Copyright (C) 2021 ibrahim hamadeh
 # This add-on is free software, licensed under the terms of the GNU General Public License (version 2).
 # See the file COPYING for more details.

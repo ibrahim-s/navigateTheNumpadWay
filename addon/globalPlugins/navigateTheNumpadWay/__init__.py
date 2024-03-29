@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# NVDA Add-on: Emulate Numpad Mode
+# NVDA Add-on: Navigate the numpad way
 # Copyright (C) 2021 ibrahim hamadeh
 # This add-on is free software, licensed under the terms of the GNU General Public License (version 2).
 # See the file COPYING for more details.
@@ -119,7 +119,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	@script(
 		# Translators: Message displayed in input help mode.
-		description= _("Emulate numpad key press.")
+		description= _("Emulate numpad key commands.")
 	)
 	def script_numpadMode(self, gesture):
 		#log.info('under script numpadMode...')
@@ -168,7 +168,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		ui.message(message)
 
 	# Translators: Category of addon in input gestures.
-	script_toggleEmulatedModes.category= _("Emulate Numpad Mode")
+	script_toggleEmulatedModes.category= _("Navigate the numpad way")
 	# Translators: Message displayed in input help mode.
 	script_toggleEmulatedModes.__doc__= _("Toggle between normal, emulated numpad mode and numbers mode states.")
 
@@ -187,7 +187,7 @@ config.conf.spec["emulateNumpadMode"]= configspec
 # The setting panel for the addon.
 class EmulateNumpadModePanel(gui.SettingsPanel):
 	# Translators: title of the panel
-	title= _("Emulate Numpad Mode")
+	title= _("Navigate the numpad way")
 
 	def makeSettings(self, sizer):
 		sHelper = guiHelper.BoxSizerHelper(self, sizer=sizer)

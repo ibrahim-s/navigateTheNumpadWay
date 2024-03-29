@@ -1,12 +1,12 @@
-# Emulate Numpad Mode #
+# navigate The numpad Way #
 
 *	Author: Ibrahim Hamadeh
-*	Download [version 0.9][1]
+*	Download [version 1.0][1]
 *	NVDA compatibility: 2019.3 and later
 
 ## Introduction
 
-This addon was made in response to a request from a user, that does not has numpad keys on his keyboard.
+This addon was made in response to a request from a user, that does not have a numeric keypad or numpad keys on his keyboard.
  Thus allowing him to benefit from the navigation feature of numpad keys.  
 
 So I think this addon will mostly be of interest for users that do not have a numeric keypad in their computer.
@@ -52,7 +52,7 @@ Emulating their review or object navigation, used alone or with conjuction with 
 ## Addon Settings ##
 
 To access addon settings, go to: NVDA menu/preferences,  
-hit enter then e to go to Emulate Numpad Mode panel.
+hit enter then e to go to navigate the numpad way panel.
 
 *	Choose form to emulate to numpad mode combo box: From here you can choose the form you like to emulate to numpad mode, and Form1 is chosen by default.
 *	Next you will stand on a multi edit text control: it will help you to view the form you have selected, and you can use up and down arrows to navigate.
@@ -61,6 +61,11 @@ hit enter then e to go to Emulate Numpad Mode panel.
 
 Final note:  
 Sometimes some addons may grab one or more of the gestures of the form. Hope you can manage that by either using another form, or removing the gesture from the theif addon, for until now I do not have other solutions.
+
+### Changes for 1.0 ###
+
+*	Rename the addon to navigate the numpad way, for there are addons, that their names very close to the previous names of the addon, thus renaming the addon make things clearer. 
+*	Update last tested version, thus making the addon compatible with NVDA 2024.1.
 
 ### Changes for 0.9 ###
 
@@ -98,4 +103,4 @@ The addon was updated introducing lot of new ffeatures
 *	umut korkmaz, thanks for supporting the Turkish translation of the addon.
 *	Ângelo Abrantes, thanks for supporting the Portuguese translation of the addon.
 
-[1]: https://github.com/ibrahim-s/emulateNumpadMode/releases/download/0.9/emulateNumpadMode-0.9.nvda-addon
+[1]: https://github.com/ibrahim-s/navigateTheNumpadWay/releases/download/1.0/navigateTheNumpadWay-1.0.nvda-addon

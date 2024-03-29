@@ -7,49 +7,143 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'emulateNumpadMode' '0.4'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2021-09-10 04:04+0300\n"
-"PO-Revision-Date: 2021-09-10 04:19+0300\n"
+"POT-Creation-Date: 2024-03-29 12:43+0200\n"
+"PO-Revision-Date: 2024-03-29 21:09+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: \n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.0.7\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: The normal mode you can toggle to.
-#: addon\globalPlugins\emulateNumpadMode.py:37
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:70
 msgid "Normal Mode"
 msgstr "الوضع العادي"
 
 #. Translators: The numpad mode you can toggle to.
-#: addon\globalPlugins\emulateNumpadMode.py:39
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:72
 msgid "Numpad Mode"
 msgstr "وضع numpad"
 
 #. Translators: The numbers mode you can toggle to.
-#: addon\globalPlugins\emulateNumpadMode.py:41
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:74
 msgid "Numbers Mode"
 msgstr "وضع الأرقام"
 
+#. Translators: Message displayed in input help mode.
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:122
+#, fuzzy
+#| msgid "Emulate Numpad Mode"
+msgid "Emulate numpad key commands."
+msgstr "تقليد نمط numpad"
+
+#. Translators: Message displayed in input help mode.
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:138
+msgid "Emulate a number key press."
+msgstr "تقليد مفاتيح الأرقام"
+
 #. Translators: Category of addon in input gestures.
+#. Translators: title of the panel
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:171
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:190
+msgid "Navigate the numpad way"
+msgstr "التصفح بطريقةْ لوحةْ الأرقام"
+
+#. Translators: Message displayed in input help mode.
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:173
+#, fuzzy
+#| msgid "Toggle between normal, emulated numpad mode and numbers mode state"
+msgid "Toggle between normal, emulated numpad mode and numbers mode states."
+msgstr "الإنتقال بين الوضع العادي, نمط numpad و نمط الأرقام."
+
+#. Translators: Option in combo box for form1
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:198
+msgid "Form1"
+msgstr "الشكل الأول"
+
+#. Translators: Option in combo box for form2
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:200
+msgid "Form2"
+msgstr "الشكل الثاني"
+
+#. Translators: Option in combo box for form3
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:202
+msgid "Form3"
+msgstr "الشكل الثالث"
+
+#. Translators: Option in combo box for form4
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:204
+msgid "Form4"
+msgstr "الشكل الرابع"
+
+#. Translators: Label of combo box
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:208
+msgid "Choose form to emulate to numpad mode:"
+msgstr "اختر الشكل لتقليد نمط نَمّبَاد"
+
+#. Translators: Label of text control that exposes the selected form.
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:215
+msgid "Selected Form"
+msgstr "الشكل المُحدد"
+
+#. Translators: Option in combo box to skip numbers mode
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:223
+msgid "Skip numbers mode"
+msgstr "تَخَطي وضع الأرقام"
+
+#. Translators: Option in combo box to skip numpad mode
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:225
+msgid "Skip numpad mode"
+msgstr "تَخَطي وضع numpad"
+
+#. Translators: Option in combo box to keep both modes
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:227
+msgid "Don't skip(Keep both modes)"
+msgstr "لا تُلغي أي وضع(الإبقاء على الوضعين)"
+
+#. Translators: Label of combo box
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:231
+msgid "Skip Options:"
+msgstr "خَيارات التخَطي"
+
+#. Translators: Label of checkbox
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:237
+msgid "Dismiss numpadMode by escape key"
+msgstr "الخروج مِن نَمط نَمّبَاد بمفتاح الهروب"
+
+#. Translators: Message helps the user to view the form.
+#: addon\globalPlugins\navigateTheNumpadWay\__init__.py:249
+msgid "You can use up and down arrows to view the form"
+msgstr "تستطيع استخدام السهم الأعلى و الأسفل للإطِّلاع على الشكل"
+
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on
 #. to be shown on installation and add-on information found in Add-ons Manager.
-#: addon\globalPlugins\emulateNumpadMode.py:99 buildVars.py:23
-msgid "Emulate Numpad Mode"
-msgstr "تقليد نمط numpad"
-
-#. Translators: Message displayed in input help more.
-#: addon\globalPlugins\emulateNumpadMode.py:101
-msgid "Toggle between normal, emulated numpad mode and numbers mode state"
-msgstr "الإنتقال بين الوضع العادي, نمط numpad و نمط الأرقام."
+#: buildVars.py:23
+msgid "Navigate The Numpad Way"
+msgstr "التصفح بطريقةْ لوحةْ الأرقام"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #: buildVars.py:26
 msgid ""
-"Emulate numpad key navigation feature\n"
-"on a portion of the main keyboard."
-msgstr "تقليد نمط لوحةْ الأرقام \vعلى جزء معين مِن لوحةْ المفاتيح."
+"Emulate numpad keys commands or navigation feature\n"
+"on a portion of the main keyboard.\n"
+"You can choose this portion or field, from the setting dialog of the "
+"addon.\n"
+"Default shortcut to toggle between normal and numpad mode in the addon is "
+"Shift+NVDA+F4, and you can modify it from input gestures dialog in NVDA."
+msgstr ""
+"محاكاة أوامر المفاتيح الرقمية أو ميزة التنقل\n"
+"على جزء من لوحة المفاتيح الرئيسية.\n"
+"يمكنك اختيار هذا الجزء أو الحقل من مربع حوار الإعداد الخاص بالإضافة.\n"
+"الاختصار الافتراضي للتبديل بين الوضع العادي ووضع اللوحة الرقمية في الإضافة "
+"هو Shift+NVDA+F4، ويمكنك تعديله من مربع حوار تخصيص اختصارات NVDA."
+
+#~ msgid ""
+#~ "Emulate numpad key navigation feature\n"
+#~ "on a portion of the main keyboard."
+#~ msgstr "تقليد نمط لوحةْ الأرقام \vعلى جزء معين مِن لوحةْ المفاتيح."
