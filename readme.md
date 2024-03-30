@@ -18,7 +18,7 @@ After installing the addon, you will have three modes
 
 Normal, Numpad and numbers mode, numbers mode is skipped by default, so mainly we have two modes normal and numpad .
 
-you can toggle between these modes by Shift+NVDA+f4 shortcut. And as always you can modify this shortcut going to NVDA menu/preferences/input gestures/Emulate Numpad Mode.
+you can toggle between these modes by Shift+NVDA+f4 shortcut. And as always you can modify this shortcut going to NVDA menu/preferences/input gestures/navigate The numpad Way.
 
 The available forms that you can emulate them to numpad mode are
 
