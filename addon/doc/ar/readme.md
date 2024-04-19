@@ -1,7 +1,7 @@
 # التصفُّحُ بطريقةْ لَوحةْ الأرقام #
 
 *	تأليف: ابراهيم حمادة
-*	تحميل [الإصدار 1.0][1]
+*	تحميل [الإصدار 1.1][1]
 *	التَوافُق مع NVDA: 2019.3 فما بعد
 
 ## مُقدمة
@@ -64,6 +64,10 @@ numpad1 numpad2 numpad3
 ملحوظة لا بد مِن ذكرها في النهاية:  
 أحيانا تقوم بعض الإضافات بسرقةْ اختصار أو أكثر مِن الشكل الذي تم اختياره, و تسخير تلك الإختصارات لمصلحتها. أرجو أن تكون قادرا على حل هكذا مشكلة إما باختيار شكل آخَر, أو بإزالةْ الإختصار مِن الإضافة السارقة له, لأنه الآن للأسف لا أملكُ بين يدي حلولا أخرى.
 
+### التغييرات في 1.1 ###
+
+*	استخدام from gui.settingsDialogs import SettingsPanel, للتخلص مِن الرسائل التحذيرية في ملف التقرير.
+
 ### التغييرات في 1.0 ###
 
 *	تغيير اسم الإضافة إلى "التصفح بطريقةْ لوحةْ الأرقام", لأن هناك إضافةْ اسمها قريب جدا مِن اسم الإضافة السابق, فتمَّ تعديل الإسم كي لا يكون هناك أي اشتباه أو التباس.
@@ -105,4 +109,4 @@ The addon was updated introducing lot of new ffeatures
 *	umut korkmaz, thanks for supporting the Turkish translation of the addon.
 *	Ângelo Abrantes, thanks for supporting the Portuguese translation of the addon.
 
-[1]: https://github.com/ibrahim-s/navigateTheNumpadWay/releases/download/1.0/navigateTheNumpadWay-1.0.nvda-addon
+[1]: https://github.com/ibrahim-s/navigateTheNumpadWay/releases/download/1.1/navigateTheNumpadWay-1.1.nvda-addon

@@ -8,6 +8,7 @@ import ui
 import globalPluginHandler
 import gui, wx
 from gui import guiHelper
+from gui.settingsDialogs import SettingsPanel
 from globalCommands import commands
 from scriptHandler import script
 import inputCore
@@ -185,7 +186,7 @@ configspec={
 config.conf.spec["emulateNumpadMode"]= configspec
 
 # The setting panel for the addon.
-class EmulateNumpadModePanel(gui.SettingsPanel):
+class EmulateNumpadModePanel(SettingsPanel):
 	# Translators: title of the panel
 	title= _("Navigate the numpad way")
 
