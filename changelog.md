@@ -1,3 +1,3 @@
-### Changes for 1.1 ###
+### Changes for 1.2 ###
 
-*	Use from gui.settingsDialogs import SettingsPanel, to get rid of warning messages in the log.
+*	Update Turkish translation, by Umut KORKMAZ.

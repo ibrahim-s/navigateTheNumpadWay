@@ -1,91 +1,113 @@
-# sayısal tuş takımı Modunu Taklit Et #
+# Sayısal Tuş Takımı İle Dolaşma #
 
-*	Geliştirici: İbrahim Hamadeh
-*	[0.8 sürümünü indirin][1]
-*	NVDA uyumluluğu: 2019.3 ve sonrası.
+*	Yazar: Ibrahim Hamadeh
+*	[Sürüm 1.1'i indirin][1]
+*	NVDA uyumluluğu: 2019.3 ve sonrası
 
 ## giriş:
 
-Bu eklenti, klavyesinde sayısal tuş takımı olmayan bir kullanıcının isteği üzerine yapılmıştır.  
-Böylece sayısal tuş takımının gezinme özelliğinden faydalanmayı sağlar.  
-Bu yüzden bu eklentinin daha çok bilgisayarında sayısal tuş takımı olmayan kullanıcıların ilgisini çekeceğini düşünüyoruz.  
-İnceleme, nesne gezinme ile ilgili olarak sayısal tuş takımı tuşlarını ve ilgili komutlarını taklit etmelerini sağlamak için ana klavyedeki mevcut formlardan veya tuş setlerinden birini seçebiliriz.  
+Bu eklenti, klavyesinde sayısal tuş takımı veya sayısal tuş takımı tuşları olmayan bir kullanıcının isteğine yanıt olarak yapılmıştır.  
+Böylece sayısal tuşların dolaşma özelliğinden faydalanmasına olanak tanıyor.  
 
-## kullanım:
+Dolayısıyla bu eklentinin daha çok bilgisayarında sayısal tuş takımı bulunmayan kullanıcıların ilgisini çekeceğini düşünüyorum.  
+Gözden geçirme veya nesne dolaşımı ile ilgili sayısal tuş takımı tuşlarına ve ilgili komutlarına taklit  edilmesini sağlamak için ana klavyedeki kullanılabilir formlardan veya tuş kümelerinden birini seçebilirsiniz.
 
-Eklenti yüklendikten sonra, üç mod bulunur:  
-Bunlar: Normal, Gezinme ve Sayısal modlarıdır.  
-Ancak, Sayısal Mod varsayılan olarak atlanmıştır.  
-NVDA+Shift+F4 kısayolu ile bu modlar arasında geçiş yapılabilir.  
-Bu atanmmış hareket, her zamanki gibi NVDA>Tercihler>Girdi hareketleri iletişim kutusunda "Sayısal Tuş takımını taklit et" dalı altından değiştirilebilir.  
+## Kullanım:
 
-Eklentide, aşağıdaki dört Form bulunur:
+Eklentiyi yükledikten sonra üç modunuz olacak.  
 
-*	Form 1:  
-Q W E  
-A S D  
-Z X C  
-*	form 2:  
+Normal, Sayısal tuş takımı ve sayılar modu, sayılar modu varsayılan olarak atlanır, dolayısıyla esas olarak normal ve sayısal tuş takımı olmak üzere iki modumuz vardır.  
+
+Shift+NVDA+f4 kısayolunu kullanarak bu modlar arasında geçiş yapabilir ve her zaman olduğu gibi kısayolu NVDA menüsü/tercihler/girdi hareketleri/Sayısal Tuş Takımı İle Dolaşma dalına giderek değiştirebilirsiniz.  
+
+Sayısal tuş takımı moduna benzetebileceğiniz mevcut formlar şunlardır:
+
+*	form1:  
+q w e  
+a s d  
+z x c  
+
+*	form2:  
 e r t  
 d f g  
 c v b  
-*	form 3:  
-y u ı  
+*	form3:  
+y u i  
 h j k  
 n m ö  
-*	form 4:  
+
+*	form4:  
 7 8 9  
-u ı o  
+u i o  
 j k l
 
-Bu formların her biri, aşağıdaki tuşları taklit eder:
+Bu formların her biri:  
 
-sayısal tuş takımı7 sayısal tuş takımı8 sayısal tuş takımı9  
-sayısal tuş takımı4 sayısal tuş takımı5 sayısal tuş takımı6  
-sayısal tuş takımı1 sayısal tuş takımı2 sayısal tuş takımı3  
+numpad7 numpad8 numpad9  
+numpad4 numpad5 numpad6  
+numpad1 numpad2 numpad3  
 
-Yukarıdaki tuşlar tek başına, Shift ve NVDA tuşları ile birlikte kullanılarak numara pedi taklit edilebilir.  
+Taklit eder.  
 
-## Eklenti Ayarları: ##
+Tek başına, shift ya da NVDA tuşlarıyla birlikte kullanılarak inceleme veya nesne dolaşımını taklit eder.
 
-Eklenti ayarlarına gitmek için: NVDA>Tercihler>Ayarlar iletişim kutusuna gidiyor ve "Sayısal tuş takımını taklit et" dalını seçiyoruz.  
+## Eklenti Ayarları ##
 
-*	Sayısal tuş takımı modunda taklit  edilecek formu seçin Seçim kutusu: Buradan sayısal tuş takımı modunda taklit etmek istediğimiz formu seçebiliriz. Form1 varsayılan olarak seçilmiştir.
-*	Daha sonra çoklu düzenleme metin kutusuna erişiriz: seçtiğimiz form için atanmış tuşları görüntülememize yardımcı olur. Gezinmek için yukarı ve aşağı okları kullanabiliriz.
-*	Atlama Seçenekleri seçim kutusu, bu, Sayısal modu atla, Gezinme modunu atla veya her iki modu da etkin tutmamıza olanak tanır.  
-*	Escape tuşuyla Sayısal tuş modunu kapat onay kutusu: varsayılan olarak işaretlidir, böylece eklentinin geçiş hareketiyle (varsayılan olarak NVDA+F4) veya Escape tuşuyla normal moda dönebiliriz.
+Eklenti ayarlarına erişmek için:  
+NVDA Menüsü>Tercihler>Ayarlar yolunu takip ederek iletişim kutusunu açıyor,  
+S harfi ile Sayısal Tuş Takımı İle Dolaşma seçeneğini buluyoruz.
 
-Son not:
-Bazen kimi eklentiler, formun hareketlerinden bir veya daha fazlasını alabilir. Umarım bunu başka bir form kullanarak veya theif eklentisinden hareketi kaldırarak yönetebilirsiniz, çünkü şimdiye kadar başka çözüm bulamadık.  
+*	Sayısal tuş takımında taklit edilecek formu seçin açılır kutusu: Buradan sayısal tuş takımı modunda taklit edilmesini istediğiniz formu seçebilirsiniz. Form1 varsayılan olarak seçilidir.
+*	Ardından, salt okunur metin kutusunda seçili form düzeninin görüntülendiği alan: seçtiğiniz formu görüntülemenize yardımcı olacak ve dolaşmak için yukarı ve aşağı okları kullanabilirsiniz.
+*	Atlama Seçenekleri açılır kutusu: Sayısal modu Atla, Dolaşma modunu atla veya her iki modu da etkin tutmanızı sağlar.
+*	Escape tuşuyla Sayısal Tuş Takımı modunu kapat onay kutusu: varsayılan olarak işaretlidir, böylece eklentinin geçiş hareketi (varsayılan olarak Shift+NVDA+F4) veya Escape tuşuyla normal moda dönebilirsiniz.
 
-### 0.8 için değişiklikler ###
+Son not:  
+Bazen bazı eklentiler formun bir veya daha fazla hareketini yakalayabilir. Umarım bunu başka bir form kullanarak veya theif eklentisinden hareketi kaldırarak halledebilirsiniz, çünkü şu ana kadar başka çözümüm yok.
 
-*	Sayısal modun, Gezinme modunu atlamak veya her ikisini birden tutmak için onay kutusu yerine birleşik giriş kutusu eklendi.
-*	Yeni bir form (q w e, a s d, z x c) eklendi ve Form 1 olarak adlandırıldı.
+### 1.1 için değişiklikler: ###
 
-### 0.7 için değişiklikler ###
+*	Günlükteki uyarı mesajlarından kurtulmak için gui.settingsDialogs import SettingsPanel'i kullanıldı.
+
+### 1.0 için değişiklikler: ###
+
+*	Benzer adlara sahip birçok eklenti olduğu için bu eklentinin adı: Sayısal Tuş Takımı İle Dolaşma olarak değiştirildi. Böylece, karışıklıklar önlenmiş oldu.
+*	En son test edilen sürüm güncellendi. Böylece eklenti NVDA 2024.1 ile uyumlu hale getirildi.
+
+### 0.9 için değişiklikler: ###
+
+*	Sayı modunda 0 sayısının üçüncü ve dördüncü formlardaki konumuyla ilgili bir hata düzeltildi.
+*	En son test edilen sürüm güncellendi. Böylece eklenti NVDA 2023.1 ile uyumlu hale getirildi.
+
+### 0.8 için değişiklikler: ###
+
+*	Sayısal mod, dolaşma modu veya her ikisi seçeneklerinden birini seçebileceğiniz bir seçim kutusu eklendi.
+*	Yeni bir form eklendi(q w e, a s d, z x c) ve form1 olarak adlandırıldı.
+
+### 0.7 için değişiklikler: ###
 
 *	Eklenti için Portekizce çeviri eklendi.
-*	Eklenti için varsayılan hareket artık Shift+NVDA+F4 olarak değiştirildi.
+*	Eklentinin varsayılan hareketi veya kısayolu değiştirildi; artık Shift+NVDA+F4 şeklindedir.
 
-### 0.6 için değişiklikler ###
-Eklenti, birçok yeni özellik sunularak güncellendi:
+### 0.6 için değişiklikler: ###
+Eklenti birçok yeni özellik eklenerek güncellendi:
 
-*	Eklenti için bir ayar paneli oluşturuldu.
-*	Artık sayısal tuş takımı modunu taklit etmek için üç form mevcut. Kullanıcı dilediğini seçebilir.
-*	Sayısal mod artık varsayılan olarak atlanmıştır. Bu durum eklenti ayarlarından değiştirilebilir.
-*	Artık sayısal tuş takımı modu Escape tuşuyla kapatılabilir. Bu seçeneğe, eklenti ayarlarından erişilebilir ve değiştirilebilir.
+*	Eklenti için bir ayar paneli eklendi.
+*	Artık sayısal tuş takımı moduna benzetilecek üç form mevcuttur ve bunlardan birini seçebilirsiniz.
+*	Sayı modu artık varsayılan olarak atlanmıştır ve bunu eklenti ayarlarından değiştirebilirsiniz.
+*	Artık sayısal tuş takımı modunu Escape tuşuyla kapatabilirsiniz. Buna eklenti ayarlarından da erişilebilir ve değiştirilebilir.
 
-### 0,5 için değişiklikler: ###
+### 0.5 için değişiklikler: ###
 
-*	NVDA 2022.1 API'sı ile uyumlu olması için en son test edilen sürümü güncellendi.
+*	NVDA 2022.1 API'sıne uyum sağlamak için en son test edilen sürüm güncellendi.
 
 ### 0.4 için değişiklikler: ###
 
-*	Türkçe çeviri eklendi.
+*	Türkçe dili eklendi.
 
-### Katkıda bulunanlar: ###
+### Katkıda Bulunanlar: ###
 
-*	umut korkmaz eklentinin türkçe çevirisine destek verdiğiniz için teşekkürler.
+*	umut korkmaz, eklentinin Türkçe çevirisini desteklediğiniz için teşekkür ederiz.
+*	Ângelo Abrantes, eklentinin Portekizce çevirisini desteklediğiniz için teşekkür ederiz.
 
-[1]: https://github.com/ibrahim-s/emulateNumpadMode/releases/download/0.8/emulateNumpadMode-0.8.nvda-addon
+[1]: https://github.com/ibrahim-s/navigateTheNumpadWay/releases/download/1.1/navigateTheNumpadWay-1.1.nvda-addon
