@@ -1,3 +1,3 @@
-### Changes for 1.2 ###
+### Changes for 1.3 ###
 
-*	Update Turkish translation, by Umut KORKMAZ.
+*	Update last tested version, thus making the addon compatible with NVDA 2025.1.
