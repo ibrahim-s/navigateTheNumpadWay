@@ -1,7 +1,7 @@
 # navigate The numpad Way #
 
 *	Author: Ibrahim Hamadeh
-*	Download [version 1.3][1]
+*	Download [version 1.4][1]
 *	NVDA compatibility: 2019.3 and later
 
 ## Introduction
@@ -62,6 +62,10 @@ hit enter then e to go to navigate the numpad way panel.
 Final note:  
 Sometimes some addons may grab one or more of the gestures of the form. Hope you can manage that by either using another form, or removing the gesture from the theif addon, for until now I do not have other solutions.
 
+### Changes for 1.4 ###
+
+*	Update last tested version to 2026.1, thus making the addon compatible with recent NVDA releases.
+
 ### Changes for 1.3 ###
 
 *	Update last tested version, thus making the addon compatible with NVDA 2025.1.
@@ -115,4 +119,4 @@ The addon was updated introducing lot of new ffeatures
 *	umut korkmaz, thanks for supporting the Turkish translation of the addon.
 *	Ângelo Abrantes, thanks for supporting the Portuguese translation of the addon.
 
-[1]: https://github.com/ibrahim-s/navigateTheNumpadWay/releases/download/1.3/navigateTheNumpadWay-1.3.nvda-addon
+[1]: https://github.com/ibrahim-s/navigateTheNumpadWay/releases/download/1.4/navigateTheNumpadWay-1.4.nvda-addon

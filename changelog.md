@@ -1,3 +1,3 @@
-### Changes for 1.3 ###
+### Changes for 1.4 ###
 
-*	Update last tested version, thus making the addon compatible with NVDA 2025.1.
+*	Update last tested version, thus making the addon compatible with NVDA 2026.1.
